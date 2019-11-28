@@ -19,12 +19,12 @@ const routes = [
     component: Cats
   },
   {
-    path: '/dog',
+    path: '/dogs',
     name: 'dog',
     component: Dogs
   },
   {
-    path: '/pet',
+    path: '/pets/:species/:id',
     name: 'pet',
     component: Pet
   }
